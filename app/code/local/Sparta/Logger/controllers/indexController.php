@@ -5,7 +5,8 @@
 
     public function indexAction()
     {
-      echo "Hello World";
+      $this->loadLayout();
+      $this->renderLayout();
     }
 
     public function logAction(){
