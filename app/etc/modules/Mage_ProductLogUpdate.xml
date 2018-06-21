@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <modules>
+    <Mage_ProductLogUpdate>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Mage_ProductLogUpdate>
+  </modules>
+</config>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <module>
+    <Sparta_Logger>
+      <version>0.0.1</version>
+    </Sparta_Logger>
+  </module>
+  <frontend>
+    <routers>
+      <logger>
+        <use>standard</use>
+        <args>
+          <module>Sparta_Logger</module>
+          <frontName>logger</frontName>
+        </args>
+      </logger>
+    </routers>
+  </frontend>
+</config>

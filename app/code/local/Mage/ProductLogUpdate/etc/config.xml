@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <module>
+    <Mage_ProductLogUpdate>
+      <version>0.0.1</version>
+    </Mage_ProductLogUpdate>
+  </module>
+  <global>
+    <models>
+      <mage_productlogupdate>
+        <class>Mage_ProductLogUpdate_Model</class>
+      </mage_productlogupdate>
+    </models>
+    <events>
+      <catalog_product_save_after>
+        <observers>
+          <mage_productlogupdate>
+            <class>mage_productlogupdate/observer</class>
+            <method>logUpdate</method>
+            <type>singleton</type>
+          </mage_productlogupdate>
+        </observers>
+      </catalog_product_save_after>
+    </events>
+  </global>
+</config>
