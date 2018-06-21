@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <modules>
+    <sparta_tutorial>
+      <active>true</active>
+      <codePool>local</codePool>
+    </sparta_tutorial>
+  </modules>
+</config>

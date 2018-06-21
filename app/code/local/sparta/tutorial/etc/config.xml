@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <modules>
+    <sparta_tutorial> <!-- Here we store the name and version of out module -->
+      <version>0.0.1</version>
+    </sparta_tutorial>
+  </modules>
+  <frontend> <!-- This tells magento that we want the module to have a controller -->
+    <routers> <!-- This says how to access the controller -->
+      <tutorial> <!-- This tag is just the name of the module containing the controller (ALL IN LOWERCASE) -->
+        <use>standard</use>
+        <args>
+          <module>sparta_tutorial</module> <!-- Module name -->
+          <frontName>tutorial</frontName>  <!-- Route to the page -->
+        </args>
+      </tutorial>
+    </routers>
+  </frontend>
+</config>

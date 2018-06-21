@@ -2,7 +2,7 @@
 <div class="nav-bar">
 <!-- menu start -->
 <ul id="nav">
-<li  class=" active  level0"> <a href="http://127.0.0.1:8888/magento-mirror/index.php/admin/dashboard/index/key/$dashboard/index$/"   class="active"><span>Dashboard</span></a>
+<li  class="  level0"> <a href="http://127.0.0.1:8888/magento-mirror/index.php/admin/dashboard/index/key/$dashboard/index$/"   class=""><span>Dashboard</span></a>
 </li>
 <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>Sales</span></a>
 <ul >
@@ -200,7 +200,7 @@
 </li>
 </ul>
 </li>
-<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>System</span></a>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class=" active  parent level0"> <a href="#"  onclick="return false" class="active"><span>System</span></a>
 <ul >
 <li  class="  level1"> <a href="http://127.0.0.1:8888/magento-mirror/index.php/admin/system_account/index/key/$system_account/index$/"   class=""><span>My Account</span></a>
 </li>
@@ -293,7 +293,7 @@
 </ul>
 <!-- menu end -->
 
-    <a id="page-help-link" href="http://merch.docs.magento.com/ce/user_guide/store-operations/reports-dashboard.html">Get help for this page</a>
+    <a id="page-help-link" href="http://merch.docs.magento.com/ce/user_guide/system-operations/cache-management.html">Get help for this page</a>
     <script type="text/javascript">$('page-help-link').target = 'magento_page_help'</script>
 
 </div>
