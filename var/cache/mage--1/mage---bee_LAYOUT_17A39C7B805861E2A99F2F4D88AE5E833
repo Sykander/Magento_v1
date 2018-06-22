@@ -438,7 +438,6 @@
 <reference name="header">
    <block type="page/template_links" name="account.links" as="accountLinks" template="persistent/header/links.phtml"/>
 </reference>
-<block type="page/html" name="root" output="toHtml" template="magentotutorial/helloworld/simple_page.phtml"/>
 <reference name="left_first">
    <block type="cms/block" name="cms_menu">
       <action method="setBlockId">

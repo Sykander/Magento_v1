@@ -5186,7 +5186,7 @@
       <block type="moneybookers/placeform" name="moneybookers_placeform" template="moneybookers/placeform.phtml"/>
    </reference>
 </moneybookers_processing_placeform>
-<default>
+<tutorial_index_index>
    <block type="page/html" name="root" output="toHtml" template="magentotutorial/helloworld/simple_page.phtml"/>
-</default>
+</tutorial_index_index>
 </layouts>

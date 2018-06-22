@@ -1,5 +1,6 @@
 <layout version="0.1.0">
-    <default>
+  <!-- Referencing the controller action here specifies what pages this block should be activated on -->
+    <tutorial_index_index>
         <block type="page/html" name="root" output="toHtml" template="magentotutorial/helloworld/simple_page.phtml" />
-    </default>
+    </tutorial_index_index>
 </layout>
