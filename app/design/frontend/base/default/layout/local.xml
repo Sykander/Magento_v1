@@ -3,4 +3,9 @@
     <tutorial_index_index>
         <block type="page/html" name="root" output="toHtml" template="magentotutorial/helloworld/simple_page.phtml" />
     </tutorial_index_index>
+    <!-- Make the tutorial index controller point its test page at the index page -->
+    <tutorial_index_test>
+        <!-- handle here means to load in the files from the handle address -->
+        <update handle="tutorial_index_index" />
+    </tutorial_index_test>
 </layout>

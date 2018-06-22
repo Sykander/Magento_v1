@@ -5189,4 +5189,7 @@
 <tutorial_index_index>
    <block type="page/html" name="root" output="toHtml" template="magentotutorial/helloworld/simple_page.phtml"/>
 </tutorial_index_index>
+<tutorial_index_test>
+   <update handle="tutorial_index_index"/>
+</tutorial_index_test>
 </layouts>
