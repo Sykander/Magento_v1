@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Spoarta_Recentproducts>
+      <version>1.0</version>
+    </Sparta_Recentproducts>
+  </modules>
+  <global>
+    <blocks>
+      <recentproducts>
+        <class>Sparta_Recentproducts_Block</class>
+      </recentproducts>
+    </blocks>
+    <models>
+      <recentproducts>
+        <class>Sparta_Recentproducts_Model</class>
+      </recentproducts>
+    </models>
+  </global>
+</config>

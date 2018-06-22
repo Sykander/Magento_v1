@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Sparta_Recentproducts>
+      <active>false</active>
+      <codePool>local</codePool>
+    </Sparta_Recentproducts>
+  </modules>
+  <global>
+    <blocks>
+      <recentproducts>
+        <class>Sparta_Recentproducts_Block</class>
+      </recentproducts>
+    </blocks>
+    <models>
+      <recentproducts>
+        <class>Sparta_Recentproducts_Model</class>
+      </recentproducts>
+    </models>
+  </global>
+</config>

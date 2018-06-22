@@ -1,0 +1,24 @@
+2018-06-22T11:20:09+00:00 ERR (3): 
+Mage_Core_Model_Session_Exception in /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Core/Model/Session/Abstract/Varien.php:432
+Stack trace:
+#0 /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Core/Model/Session/Abstract/Varien.php(237): Mage_Core_Model_Session_Abstract_Varien->validate()
+#1 /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Core/Model/Session/Abstract.php(84): Mage_Core_Model_Session_Abstract_Varien->init('reports', NULL)
+#2 /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Reports/Model/Session.php(43): Mage_Core_Model_Session_Abstract->init('reports')
+#3 /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Core/Model/Config.php(1357): Mage_Reports_Model_Session->__construct(Array)
+#4 /Applications/MAMP/htdocs/magento-mirror/app/Mage.php(463): Mage_Core_Model_Config->getModelInstance('reports/session', Array)
+#5 /Applications/MAMP/htdocs/magento-mirror/app/Mage.php(477): Mage::getModel('reports/session', Array)
+#6 /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Reports/Model/Product/Index/Abstract.php(167): Mage::getSingleton('reports/session')
+#7 /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Reports/Model/Product/Index/Abstract.php(185): Mage_Reports_Model_Product_Index_Abstract->_getSession()
+#8 /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Reports/Model/Event/Observer.php(148): Mage_Reports_Model_Product_Index_Abstract->calculate()
+#9 /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Core/Model/App.php(1358): Mage_Reports_Model_Event_Observer->catalogProductView(Object(Varien_Event_Observer))
+#10 /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Core/Model/App.php(1337): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Reports_Model_Event_Observer), 'catalogProductV...', Object(Varien_Event_Observer))
+#11 /Applications/MAMP/htdocs/magento-mirror/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('catalog_control...', Array)
+#12 /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Catalog/Helper/Product/View.php(135): Mage::dispatchEvent('catalog_control...', Array)
+#13 /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(2, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#14 /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#15 /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#16 /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#17 /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#18 /Applications/MAMP/htdocs/magento-mirror/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#19 /Applications/MAMP/htdocs/magento-mirror/index.php(83): Mage::run('', 'store')
+#20 {main}
