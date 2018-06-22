@@ -438,10 +438,13 @@
 <reference name="header">
    <block type="page/template_links" name="account.links" as="accountLinks" template="persistent/header/links.phtml"/>
 </reference>
-<block type="page/html" name="root" output="toHtml" template="magentotutorial/helloworld/simple_page.phtml">
+<reference name="root">
+   <action method="setTemplate">
+      <template>magentotutorial/helloworld/simple_page.phtml</template>
+   </action>
    <block type="page/template_links" name="top.links"/>
    <block type="customer/form_register" name="customer_form_register" template="customer/form/register.phtml"/>
-</block>
+</reference>
 <reference name="top.links">
    <action method="addLink" translate="label title" module="customer">
       <label>Log In</label>

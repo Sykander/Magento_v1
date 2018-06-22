@@ -1,10 +1,13 @@
 <layout version="0.1.0">
   <!-- Referencing the controller action here specifies what pages this block should be activated on -->
     <tutorial_index_index>
-      <block type="page/html" name="root" output="toHtml" template="magentotutorial/helloworld/simple_page.phtml">
-        <block type="page/template_links" name="top.links"/>
-        <block type="customer/form_register" name="customer_form_register" template="customer/form/register.phtml"/>
-      </block>
+      <reference name="root">
+            <action method="setTemplate">
+                <template>magentotutorial/helloworld/simple_page.phtml</template>
+            </action>
+            <block type="page/template_links" name="top.links"/>
+            <block type="customer/form_register" name="customer_form_register" template="customer/form/register.phtml"/>
+        </reference>
     </tutorial_index_index>
     <!-- Make the tutorial index controller point its test page at the index page -->
     <tutorial_index_test>
