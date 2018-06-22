@@ -150,3 +150,11 @@
 [5] /Applications/MAMP/htdocs/magento-mirror/app/Mage.php:683
 [6] /Applications/MAMP/htdocs/magento-mirror/index.php:83
 \</pre>
+2018-06-22T08:16:18+00:00 DEBUG (7): HEADERS ALREADY SENT: \<pre>[0] /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /Applications/MAMP/htdocs/magento-mirror/lib/Zend/Controller/Response/Abstract.php:768
+[2] /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /Applications/MAMP/htdocs/magento-mirror/app/code/core/Mage/Core/Model/App.php:365
+[5] /Applications/MAMP/htdocs/magento-mirror/app/Mage.php:683
+[6] /Applications/MAMP/htdocs/magento-mirror/index.php:83
+\</pre>
